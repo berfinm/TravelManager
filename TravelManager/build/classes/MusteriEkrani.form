@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JList" name="jList1">
+          <Properties>
+            <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+              <StringArray count="5">
+                <StringItem index="0" value="Item 1"/>
+                <StringItem index="1" value="Item 2"/>
+                <StringItem index="2" value="Item 3"/>
+                <StringItem index="3" value="Item 4"/>
+                <StringItem index="4" value="Item 5"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Container class="javax.swing.JTabbedPane" name="jTabbedPane1">
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Rezervia"/>
+    <Property name="location" type="java.awt.Point" editor="org.netbeans.beaninfo.editors.PointEditor">
+      <Point value="[200, 80]"/>
+    </Property>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="-2" pref="288" max="-2" attributes="0"/>
+                  <Component id="sefersecbutonu" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="366" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="tarihcb" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="kalkisnoktasicb" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="varisnoktasicb" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="seferbulbutonu" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                                  <Component id="odemeyapbutonu" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="koltukrb19" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb23" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb27" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb15" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb11" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb7" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb3" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="koltukrb25" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb29" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb21" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb17" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb13" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb9" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb5" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb1" alignment="1" min="-2" pref="98" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="koltukrb30" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb26" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb22" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb18" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb14" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb10" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb6" min="-2" pref="98" max="-2" attributes="0"/>
+                                                      <Component id="koltukrb2" min="-2" pref="98" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="koltuksecbutonu" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="256" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="koltukrb24" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb20" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb28" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb16" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb12" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb8" min="-2" pref="98" max="-2" attributes="0"/>
+                                      <Component id="koltukrb4" min="-2" pref="98" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="geributon4" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="geributon4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="tarihcb" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="kalkisnoktasicb" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="varisnoktasicb" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="sefersecbutonu" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Component id="seferbulbutonu" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="454" max="-2" attributes="0"/>
+                          <EmptySpace pref="27" max="32767" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="koltukrb1" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb2" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb3" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb4" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="koltukrb5" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb6" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb7" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb8" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="koltukrb9" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb10" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb11" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb12" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="koltukrb13" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb14" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb15" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb16" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="koltukrb19" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb20" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb17" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="koltukrb18" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="koltukrb23" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb24" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb21" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb22" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="koltukrb27" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb28" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb25" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb26" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="koltukrb30" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Component id="koltukrb29" alignment="3" min="-2" pref="22" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                          <Component id="koltuksecbutonu" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="odemeyapbutonu" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="154" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/images/2.png"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="tarihcb">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="7">
+                <StringItem index="0" value="4 Aral&#x131;k"/>
+                <StringItem index="1" value="5 Aral&#x131;k"/>
+                <StringItem index="2" value="6 Aral&#x131;k"/>
+                <StringItem index="3" value="7 Aral&#x131;k"/>
+                <StringItem index="4" value="8 Aral&#x131;k"/>
+                <StringItem index="5" value="9 Aral&#x131;k"/>
+                <StringItem index="6" value="10 Aral&#x131;k"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="kalkisnoktasicb">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="6">
+                <StringItem index="0" value="Istanbul"/>
+                <StringItem index="1" value="Bilecik"/>
+                <StringItem index="2" value="Kocaeli"/>
+                <StringItem index="3" value="Ankara"/>
+                <StringItem index="4" value="Eskisehir"/>
+                <StringItem index="5" value="Konya"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="varisnoktasicb">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="6">
+                <StringItem index="0" value="Istanbul"/>
+                <StringItem index="1" value="Bilecik"/>
+                <StringItem index="2" value="Kocaeli"/>
+                <StringItem index="3" value="Ankara"/>
+                <StringItem index="4" value="Eskisehir"/>
+                <StringItem index="5" value="Konya"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Segoe UI" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Rezervasyon Yap"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="seferbulbutonu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sefer Bul"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="seferbulbutonuActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="RezervasyonSeferSecmeList">
+              <Properties>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.editors2.ListModelEditor">
+                  <StringArray count="1">
+                    <StringItem index="0" value=" "/>
+                  </StringArray>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JButton" name="sefersecbutonu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Sefer Se&#xe7;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sefersecbutonuActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb1">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="1.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb2">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="2.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb24">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="24.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb3">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="3.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb4">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="4.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb5">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="5.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb6">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="6.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb16">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="16.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb7">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="7.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb8">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="8.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb9">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="9.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb10">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="10.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb11">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="11.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb15">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="15.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb12">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="12.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb13">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="13.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb14">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="14.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb28">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="28.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb19">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="19.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb20">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="20.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb17">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="17.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb21">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="21.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb18">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="18.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb22">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="22.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb23">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="23.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb27">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="27.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb29">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="29.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb25">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="25.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb26">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="26.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JRadioButton" name="koltukrb30">
+          <Properties>
+            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+              <ComponentRef name="buttonGroup1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="30.Koltuk"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="koltuksecbutonu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Koltuk Se&#xe7;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="koltuksecbutonuActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="odemeyapbutonu">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#xd6;deme Yap"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="odemeyapbutonuActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="geributon4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Geri Git"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="geributon4ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
